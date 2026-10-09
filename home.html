@@ -1,12 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>web minimalista</title>
-    </head>
-    <body>
-        <h1>Sarah Chen</h1>
-        <p>During my time at Aetheria School of Visual Arts, I had the opportunity to intern at Lumina Creative Studio and The Terraform Interiors Collective. These experiences allowed me to see design in action, collaborating with talented professionals and contributing to real-world projects. I learned invaluable lessons about the creative process, from concept development to final execution.
 
-I thrive in collaborative environments, where ideas can bounce and evolve. I love the challenge of taking a concept and translating it into a compelling visual experience. Whether I'm sketching, photographing, or designing, I'm always searching for ways to connect with people on a deeper level through my work..</p>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Sarah Chen</title>
+</head>
+
+<body>
+    <header class="header">
+        <img class="profile__image" alt="Sarah Chen" src="./assets/images/image-profile.png" width="92" height="93">
+        <h1 class="profile__name">Sarah Chen</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section" id="about">
+            <p class="about__text">During my time at Aetheria School of Visual Arts, I had the opportunity to intern
+                at Lumina Creative Studio and The Terraform Interiors Collective. These experiences allowed me to see
+                design in action, collaborating with talented professionals and contributing to real-world projects.
+                I learned invaluable lessons about the creative process, from concept development to final execution.</p>
+
+            <p class="about__text">I thrive in collaborative environments, where ideas can bounce and evolve. I love
+                the challenge of taking a concept and translating it into a compelling visual experience. Whether I'm
+                sketching, photographing, or designing, I'm always searching for ways to connect with people on a
+                deeper level through my work.</p>
+        </section>
+
+        <section class="section" id="contact">
+           
+        </section>
+    </main>
+    <section class="intro" id="about">
+            <p class="intro__text">During my time at Aetheria School of Visual Arts, ...</p>
+            <p class="intro__text">I thrive in collaborative environments, ...</p>
+        </section>
+
+        <section class="now">
+            <h2 class="now__title">Right now I am...</h2>
+
+            <div class="now__content">
+                <ul class="now__list">
+                    <li>Reading: ...</li>
+                    <li>Dreaming of: ...</li>
+                    <li>Eating at: ...</li>
+                    <li>Training for: The NYC Marathon</li>
+                </ul>
+
+                <img class="now__image" src="./assets/images/image-now.jpg" alt="Sarah Chen posando">
+            </div>
+        </section>
+        <section class="projects">
+            <h2 class="projects__title">From graphic design to interior spaces, see the breadth of my creative explorations.</h2>
+            <p class="projects__label">More projects</p>
+
+            <div class="projects__grid">
+                <article class="card">
+                    <p class="card__tag">Artwork</p>
+                    <h3 class="card__title">Illustration sketches</h3>
+                    <a class="card__button" href="#">Explore</a>
+                    <img class="card__image" src="./assets/images/project-1.jpg" alt="Ilustración abstracta">
+                </article>
+
+                <article class="card">
+                    <p class="card__tag">Editorial</p>
+                    <h3 class="card__title">Magazine study</h3>
+                    <a class="card__button" href="#">Explore</a>
+                    <img class="card__image" src="./assets/images/project-2.jpg" alt="Revista abierta">
+                </article>
+
+                <article class="card">
+                    <p class="card__tag">Design</p>
+                    <h3 class="card__title">Castro Capital branding</h3>
+                    <a class="card__button" href="#">Explore</a>
+                    <img class="card__image" src="./assets/images/project-3.jpg" alt="Diseño de marca Castro Capital">
+                </article>
+            </div>
+        </section>
+    </main>
+
+    
+    <footer class="footer" id="contact">
+        <ul class="footer__links">
+            <li><a href="mailto:tu@email.com">Email</a></li>
+            <li><a href="#">Behance</a></li>
+            <li><a href="#">LinkedIn</a></li>
+        </ul>
+        <p class="footer__copy">© Sarah Chen 2025 All Rights Reserved</p>
+    </footer>
+        
+</body>
+
 </html>
