@@ -2,97 +2,101 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>web minimalista</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-    <header>
-        <img class="profile__image" alt="Sarah Chen" src="./assets/images/image-profile.png" width="92" height="93">
-        <h1 class="profile__name">Sarah Chen</h1>
+    <header class="header">
+        <div class="profile">
+            <img class="profile__image" alt="Sarah Chen" src="./assets/foto-perfil.png" width="92" height="93">
+            <h1 class="profile__name">Sarah Chen</h1>
+        </div>
 
-        <nav>
-            <ul>
-                <li><a href="#about">Home</a></li>
-                <li><a href="#work">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li><a class="nav__link nav__link--pink" href="#about">Home</a></li>
+                <li><a class="nav__link nav__link--olive" href="#work">About</a></li>
+                <li><a class="nav__link nav__link--blue" href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
+    <main>
+        <section class="section section--intro">
+            <p class="profile__subtitle">I'm Sarah Chen, design student and explorer of visual languages.
+                I'm passionate about understanding how different design disciplines intersect and create meaningful
+                connections.</p>
+        </section>
 
-    <section class="section">
+        <section class="section section--blue">
+            <div class="work-experience__info">
+                <h2 class="section__title">Design</h2>
+                <h3 class="work-experience__title">Yoga studio rebrand</h3>
+                <a class="work-experience__button" href="#">Explore</a>
+            </div>
+            <div class="images-experience">
+                <img src="./assets/yoga.png" alt="mosaico de formas geométricas coloridas" width="150" height="90">
+        </section>
 
-        <p class="profile__subtitle">I'm Sarah Chen, design student and explorer of visual languages.
-            I'm passionate about understanding how different design disciplines intersect and create meaningful
-            connections.</p>
+        <section class="section section--pink">
+            <div class="work-experience__info">
+                <h2 class="section__title">Artwork</h2>
+                <h3 class="work-experience__title">Abstract paintings</h3>
+                <a class="work-experience__button" href="#">Explore</a>
+            </div>
+            <div class="images-experience">
+                <img src="./assets/abstract.png" alt="Abstract 3D composition of colorful geometric shapes" width="150" height="90">
+            </div>
+        </section>
 
-        <main>
+        <section class="section section--olive">
+            <div class="work-experience__info">
+                <h2 class="section__title">Design</h2>
+                <h3 class="work-experience__title">Magazine study</h3>
+                <a class="work-experience__button" href="#">Explore</a>
+            </div>
+            <div class="images-experience">
+                <img src="./assets/magazine.png" alt="Abstract 3D composition of colorful geometric shapes" width="150" height="90">
+            </div>
+        </section>
 
-    </section>
+        <section class="section section--purple">
+            <div class="work-experience__info">
+                <h2 class="section__title">Photography</h2>
+                <h3 class="work-experience__title">Echoes of Italy</h3>
+                <a class="work-experience__button" href="#">Explore</a>
+            </div>
+            <div class="images-experience">
+                <img src="./assets/echoes.png" alt="Abstract 3D composition of colorful geometric shapes" width="150" height="90">
+            </div>
+        </section>
 
-    <section class="section">
-        <h2 class="section__title">Design</h2>
-        <h3 class="work-experience__title">Yoga studio rebrand </h3>
+        <section class="section section--blue">
+            <div class="work-experience__info">
+                <h2 class="section__title">Design</h2>
+                <h3 class="work-experience__title">Castro Capital branding</h3>
+                <a class="work-experience__button" href="#">Explore</a>
+            </div>
+            <div class="images-experience">
+                <img src="./assets/capital.png" alt="Abstract 3D composition of colorful geometric shapes" width="150" height="90">
+            </div>
+        </section>
 
-        <div class="images-experience">
-            <img src="./assets/images/design.png" alt="Abstract 3D composition of colorful geometric shapes" width="150"
-                height="90">
-        </div>
-    </section>
+        <section class="section section--outro">
+            <p>I'm dedicated to crafting meaningful visual experiences through a multidisciplinary design approach.</p>
+        </section>
+    </main>
 
-    <section class="section">
-        <h2 class="section__title">Artwork</h2>
-        <h3 class="work-experience__title">Abstract paintings </h3>
-
-        <div class="images-experience">
-            <img src="./assets/images/design.png" alt="Abstract 3D composition of colorful geometric shapes" width="150"
-                height="90">
-        </div>
-    </section>
-    <section class="section">
-        <h2 class="section__title">Design</h2>
-        <h3 class="work-experience__title">Magazine study </h3>
-
-        <div class="images-experience">
-            <img src="./assets/images/design.png" alt="Abstract 3D composition of colorful geometric shapes" width="150"
-                height="90">
-        </div>
-    </section>
-    </section>
-    <section class="section">
-        <h2 class="section__title">Photography</h2>
-        <h3 class="work-experience__title">Echoes of Italy </h3>
-
-        <div class="images-experience">
-            <img src="./assets/images/design.png" alt="Abstract 3D composition of colorful geometric shapes" width="150"
-                height="90">
-        </div>
-    </section>
-
-    </section>
-    <section class="section">
-        <h2 class="section__title">Design</h2>
-        <h3 class="work-experience__title">Castro Capital branding </h3>
-
-        <div class="images-experience">
-            <img src="./assets/images/design.png" alt="Abstract 3D composition of colorful geometric shapes" width="150"
-                height="90">
-        </div>
-    </section>
-    <section class="section">
-
-        <p>I'm dedicated to crafting meaningful visual experiences about through a multidisciplinary design approach.</p>
-        
-<footer>
-    <p>Contact:</p>
-        <p>Email: <a href="mailto:sarah.chen@example.com">sarah.chen@example.com</a></p>
-        <p>Behance: <a href="https://www.behance.net/sarahchen" target="_blank">sarahchen</a></p>
-        
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/sarahchen" target="_blank">Sarah Chen</a></p>
-        <p>© 2025 Sarah Chen all rights reserved</p>
+    <footer class="footer" id="contact">
+        <p class="footer__title">Contact:</p>
+        <p class="footer__item">Email: <a class="footer__link" href="mailto:sarah.chen@example.com">sarah.chen@example.com</a></p>
+        <p class="footer__item">Behance: <a class="footer__link" href="https://www.behance.net/sarahchen" target="_blank">sarahchen</a></p>
+        <p class="footer__item">LinkedIn: <a class="footer__link" href="https://www.linkedin.com/in/sarahchen" target="_blank">Sarah Chen</a></p>
+        <p class="footer__copy">© 2025 Sarah Chen all rights reserved</p>
     </footer>
-
 </body>
 
 </html>
-
