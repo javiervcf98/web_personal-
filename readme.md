@@ -1,0 +1,2 @@
+He tenido problemas con Figma dado a que tenia una sesión iniciada y una vez que chrome actualizo todas las ventanas se perdió esa sesion de figma y ya cuando volvi
+al proyecto minimalista no tenia permiso de escritura, solo podia ver y por tanto no podia ni descargar mas fotos ni copiar y pegar titulos
