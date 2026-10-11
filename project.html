@@ -10,16 +10,16 @@
 
 <body>
     <header class="header">
-        <div class="header__profile">
-            <img class="profile__image" src="./assets/images/image-profile.png" alt="Sarah Chen" width="92" height="93">
+        <div class="profile">
+            <img class="profile__image" src="./assets/foto-perfil.png" alt="Sarah Chen">
             <p class="profile__name">Sarah Chen</p>
         </div>
 
         <nav class="nav">
             <ul class="nav__list">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./index.html#about">About</a></li>
-                <li><a href="./index.html#contact">Contact</a></li>
+                <li><a class="nav__link nav__link--pink" href="./index.html">Home</a></li>
+                <li><a class="nav__link nav__link--olive" href="./about.html">About</a></li>
+                <li><a class="nav__link nav__link--blue" href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -30,73 +30,81 @@
             <h1 class="project-intro__title">Echos of Italy</h1>
             <p class="project-intro__text">'Echoes of Italy' is my lens on the country's timeless charm — candid moments, architectural details, and sun-kissed scenes.</p>
         </section>
-        <div class="gallery__item gallery__item--center">
-    <img src="./assets/images/italy-1.jpg" alt="Hombre caminando frente a una fachada de piedra">
-    <p class="gallery__caption">Wandering and wondering, lost in the rhythm of the city.</p>
-</div>
-<div class="gallery__item gallery__item--center">
-    <img src="./assets/images/italy-1.jpg" alt="Multitud de personas caminando por una calle empedrada">
-    <p class="gallery__caption">A symphony of motion and architecture, framed by history.</p>
-</div>
-<div class="gallery__item gallery__item--center">
-    <img src="./assets/images/italy-1.jpg" alt="Gente jugando al baloncesto en una cancha al aire libre">
-    <p class="gallery__caption">A study in contrasts: light, shadow, and the rhythm of the game.</p>
-</div>
-<section class="project-text">
-    <p class="project-text__paragraph">From sun-drenched piazzas to intimate still-lives, I aimed to capture the soul of the country through light and composition.</p>
-</section>
 
-<section class="gallery">
-    <div class="gallery__item gallery__item--full">
-        <img src="./assets/images/italy-4.jpg" alt="Fotógrafo sentado en un muelle de madera haciendo una foto">
-        <p class="gallery__caption">Dockside perspective, capturing the soul of the water.</p>
-    </div>
+        <section class="gallery">
+            <div class="gallery__item gallery__item--center">
+                <img class="gallery__image" src="./assets/italy-1.png" alt="Hombre caminando frente a una fachada de piedra">
+                <p class="gallery__caption">Wandering and wondering, lost in the rhythm of the city.</p>
+            </div>
 
-    <div class="gallery__item gallery__item--center">
-        <img src="./assets/images/italy-5.jpg" alt="Dos personas sentadas en un muro frente a un puente en Venecia">
-        <p class="gallery__caption">Venice, and a moment between two.</p>
-    </div>
+            <div class="gallery__item gallery__item--left">
+                <img class="gallery__image" src="./assets/italy-2.png" alt="Multitud de personas caminando por una calle empedrada">
+                <p class="gallery__caption">A symphony of motion and architecture, framed by history.</p>
+            </div>
 
-    <div class="gallery__item gallery__item--full">
-        <img src="./assets/images/italy-6.jpg" alt="Grupo de personas bailando en una plaza con árboles">
-        <p class="gallery__caption">A spontaneous rhythm, a shared moment, pure joy.</p>
-    </div>
-</section>
-<section class="projects">
-    <h2 class="projects__title">From graphic design to interior spaces, see the breadth of my creative explorations.</h2>
-    <p class="projects__label">More projects</p>
+            <div class="gallery__item gallery__item--right">
+                <img class="gallery__image" src="./assets/italy-3.png" alt="Gente jugando al baloncesto en una cancha al aire libre">
+                <p class="gallery__caption">A study in contrasts: light, shadow, and the rhythm of the game.</p>
+            </div>
+        </section>
 
-    <div class="projects__grid">
-        <div class="card card--artwork">
-            <p class="card__tag">Artwork</p>
-            <h3 class="card__title">Illustration sketches</h3>
-            <a class="card__button" href="#">Explore</a>
-            <img class="card__image" src="./assets/images/project-1.jpg" alt="Pintura abstracta en azul y naranja">
-        </div>
+        <section class="project-text">
+            <p class="project-text__paragraph">From sun-drenched piazzas to intimate still-lives, I aimed to capture the soul of the country through light and composition.</p>
+        </section>
 
-        <div class="card card--editorial">
-            <p class="card__tag">Editorial</p>
-            <h3 class="card__title">Magazine study</h3>
-            <a class="card__button" href="#">Explore</a>
-            <img class="card__image" src="./assets/images/project-2.jpg" alt="Revista abierta con fotografías en blanco y negro">
-        </div>
+        <section class="gallery">
+            <div class="gallery__item gallery__item--full">
+                <img class="gallery__image" src="./assets/italy-4.png" alt="Fotógrafo sentado en un muelle de madera haciendo una foto">
+                <p class="gallery__caption">Dockside perspective, capturing the soul of the water.</p>
+            </div>
 
-        <div class="card card--design">
-            <p class="card__tag">Design</p>
-            <h3 class="card__title">Castro Capital branding</h3>
-            <a class="card__button" href="#">Explore</a>
-            <img class="card__image" src="./assets/images/project-3.jpg" alt="Piezas de diseño de marca de Castro Capital">
-        </div>
-    </div>
-</section>
-</main>
+            <div class="gallery__item gallery__item--center">
+                <img class="gallery__image" src="./assets/italy-5.png" alt="Dos personas sentadas en un muro frente a un puente en Venecia">
+                <p class="gallery__caption">Venice, and a moment between two.</p>
+            </div>
 
-<!-- PIE DE PÁGINA -->
-<footer class="footer" id="contact">
-    <ul class="footer__links">
-        <li><a href="mailto:tu@email.com">Email</a></li>
-        <li><a href="#">Behance</a></li>
-        <li><a href="#">LinkedIn</a></li>
-    </ul>
-    <p class="footer__copy">© Sarah Chen 2025 All Rights Reserved</p>
-</footer>
+            <div class="gallery__item gallery__item--full">
+                <img class="gallery__image" src="./assets/italy-6.png" alt="Grupo de personas bailando en una plaza con árboles">
+                <p class="gallery__caption">A spontaneous rhythm, a shared moment, pure joy.</p>
+            </div>
+        </section>
+
+        <section class="more-projects">
+            <h2 class="more-projects__title">From graphic design to interior spaces, see the breadth of my creative explorations.</h2>
+            <p class="more-projects__label">More projects</p>
+
+            <div class="more-projects__list">
+                <div class="card card--pink">
+                    <p class="card__tag">Artwork</p>
+                    <h3 class="card__title">Illustration sketches</h3>
+                    <a class="card__button" href="#">Explore</a>
+                    <img class="card__image" src="./assets/abstract.png" alt="Pintura abstracta en azul y naranja">
+                </div>
+
+                <div class="card card--olive">
+                    <p class="card__tag">Editorial</p>
+                    <h3 class="card__title">Magazine study</h3>
+                    <a class="card__button" href="#">Explore</a>
+                    <img class="card__image" src="./assets/magazine.png" alt="Revista abierta con fotografías en blanco y negro">
+                </div>
+
+                <div class="card card--blue">
+                    <p class="card__tag">Design</p>
+                    <h3 class="card__title">Castro Capital branding</h3>
+                    <a class="card__button" href="#">Explore</a>
+                    <img class="card__image" src="./assets/capital.png" alt="Piezas de diseño de marca de Castro Capital">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="contact">
+        <p class="footer__title">Contact:</p>
+        <p class="footer__item">Email: <a class="footer__link" href="mailto:sarah.chen@example.com">sarah.chen@example.com</a></p>
+        <p class="footer__item">Behance: <a class="footer__link" href="https://www.behance.net/sarahchen" target="_blank">sarahchen</a></p>
+        <p class="footer__item">LinkedIn: <a class="footer__link" href="https://www.linkedin.com/in/sarahchen" target="_blank">Sarah Chen</a></p>
+        <p class="footer__copy">© 2025 Sarah Chen all rights reserved</p>
+    </footer>
+</body>
+
+</html>
